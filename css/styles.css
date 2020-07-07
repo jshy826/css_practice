@@ -27,6 +27,7 @@ button:focus {
   width: 130px;
   border-radius: 5px;
   margin: 0px 5px;
+  margin-top:20px;
 }
 
 .follow-btn {
@@ -102,7 +103,7 @@ h1 {
 .profile__name {
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 30px;
+  
 }
 
 .product__info {
@@ -111,4 +112,20 @@ h1 {
 
 .product__value {
   margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-count {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.fa-star {
+  color: #febd51;
+}
+
+.fa-star:nth-child(5) {
+  color: black;
+  opacity: 0.1;
 }
