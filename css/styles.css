@@ -1,0 +1,114 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: sans-serif;
+  background-color: #020202;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  opacity: 0.8;
+}
+
+.profile__btn {
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.follow-btn {
+  background-color: #6b75ff;
+  color: white;
+  font-weight: 600;
+}
+
+.message-btn {
+  background-color: #eaecff;
+  color: #6b75ff;
+  font-weight: 600;
+}
+
+.box {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 10px;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  align-items: center;
+}
+
+.profile-margin,
+.font-margin {
+  margin-top: 10px;
+}
+
+.buy {
+  height: 430px;
+  width: 355px;
+  margin-top: 20px;
+}
+
+.bg__pic {
+  height: 150px;
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile__pic {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 3px solid white;
+  margin: 0px 100px;
+  position: absolute;
+  top: 115px;
+}
+
+.product__pic {
+  height: 300px;
+  width: 355px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.font-sm {
+  opacity: 0.4;
+}
+
+.profile__name {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.product__info {
+  padding: 10px 15px;
+}
+
+.product__value {
+  margin: 20px 0px;
+}
